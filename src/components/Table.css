@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: "Open Sans", sans-serif;;
+}
+
+th, td {
+    text-align: center;
+    width: 33.33%;
+    padding: 5px;
+}
+th{
+    background-color: #e9ebee;
+}
+tr:nth-child(odd) {background-color: #fff;}
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+.table-data:hover{
+    width: 100%;
+    border: 1px solid #e02f2f;
+    cursor: pointer;
+    background-color: #f2f2f2;
+}
+.table-data:focus{
+    border: 1px solid #25a143;
+    background-color:#ffffff;
+    cursor: pointer;
+    
+}
+.table-data:focus td{
+    font-weight: 700;
+}
+.money{
+    color:#dcbf2f;
+}
+.data{
+    font-weight: 500;
+}
+@media(max-width: 480px){
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        font-family: "Open Sans", sans-serif;
+        height: 100%;
+        top:10px
+    }
+    th, td {
+        padding: 5px;
+        text-align: center;
+    }
+    .data{
+        font-weight: 500;
+    }
+    
+}

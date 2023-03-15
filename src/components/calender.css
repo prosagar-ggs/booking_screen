@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+.date{
+    display:flex;
+    flex-direction: column;
+    border: 5px dashed #25a143;
+    box-shadow: 5px 5px #dcbf2f;
+    font-family: "Open Sans bold", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    min-width: 125px;
+    min-height: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    align-content: center;
+    align-items: center;
+    cursor: pointer;
+    outline: none;
+}
+.date:hover{
+    border: 5px dashed #e02f2f;
+    transform: scale(1.01);
+}
+
+.date:focus{
+    border: 5px solid #25a143;
+}
+
+
+.date-month{
+    display: flex;
+    flex-direction: row;
+    color: #016eb3;
+}
+.date-month span{
+    margin-right: 5px;
+}
+.arabic{
+    color: #25a143;
+}
+.month{
+    width: 99%;
+    margin: 0px 1%;
+    display: flex;
+    flex-direction: column;
+    overflow-x:auto;
+    white-space: nowrap;
+}
+
+.month::-webkit-scrollbar{
+    display:none ;
+}
+@media(max-width:480px){
+    .month{
+        display: flex;
+        overflow-x:auto;
+        white-space: nowrap;
+    }
+    
+}

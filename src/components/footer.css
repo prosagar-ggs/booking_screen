@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+.footer-table tr th{
+    background-color: #ffffff
+}
+
+.footer-table{
+    border-collapse: collapse;
+    width: 100%;
+    font-family: "Open Sans", sans-serif;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+
+@media (max-width:850px) {
+    .overlay{
+        width: 100%;
+    }
+    
+}
+@media (max-width:480px){
+    .footer{
+        width: 100%;
+        padding: 30px;
+    }
+
+    .overlay{
+        width: 100%;
+    }
+    tbody > tr >td{
+        font-weight: 700;
+    }
+    .data{
+        font-weight: 500;
+    }
+}

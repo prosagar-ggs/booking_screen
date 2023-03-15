@@ -1,0 +1,76 @@
+
+{
+    "gender1":"ذكر",
+    "gender2":"انثي",
+    "Local-time" :"التوقيت المحلي",
+    "Selected-Date":"اختر التاريخ",
+    "Available":"متاح",
+    "Cost":"التكلفة",
+    "OK":"نعم",
+    "Slot":"الفترة الزمنية",
+    "SAR":"(المبلغ)SAR",
+    "TableData":[
+        {
+            "id":30,
+            "time":"٠٥:٠٠",
+            "available":"٥",
+            "SAR":"١٠٠٠"
+        },
+        {
+            "id":31,
+            "time":"٠٧:٠٠",
+            "available":"٥",
+            "SAR":"١٠٠٠"
+        },
+        {
+            "id":32,
+            "time":"٠٩:٠٠",
+            "available":"٥",
+            "SAR":"١٠٠٠"
+        },
+        {
+            "id":33,
+            "time":"١١:٠٠",
+            "available":"٥",
+            "SAR":"١٠٠٠"
+        },
+        {
+            "id":34,
+            "time":"١٣:٠٠",
+            "available":"٥",
+            "SAR":"١٠٠٠"
+        },
+        {
+            "id":35,
+            "time":"١٥:٠٠",
+            "available":"٥",
+            "SAR":"١٠٠٠"
+        },
+        {
+            "id":36,
+            "time":"١٧:٠٠",
+            "available":"٥",
+            "SAR":"١٠٠٠"
+        },
+        {
+            "id":37,
+            "time":"١٩:٠٠",
+            "available":"٥",
+            "SAR":"١٠٠٠"
+        },
+        {
+            "id":38,
+            "time":"٢١:٠٠",
+            "available":"٥",
+            "SAR":"١٠٠٠"
+        }
+    ],
+    "Booking-Summery":"الموجز للحجز",
+    "Umrah-for-Name":"العمرة للإسم",
+    "Slot-Details":"البيانات للفترة الزمنية",
+    "Cost-for-Umrah":"التكلفة للعمرة",
+    "Total":"المجموع",
+    "Persons":"النفور",
+    "Total-Amount":"المبلغ المجموع",
+    "Book-Now":"الحجز الآن"
+}
